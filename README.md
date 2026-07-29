@@ -6,10 +6,10 @@
  ╱  ╲╱ ╱ _` │ '_ ` _ ╲ ╱ _ ╲╱ _╲╱ _ ╲│ '__╱ _` │╱ _ ╲ │ '_ ╲│ │ │ │
 ╱ ╱╲  ╱ (_│ │ │ │ │ │ │  __╱ ╱ │ (_) │ │ │ (_│ │  __╱_│ │_) │ │_│ │
 ╲_╲ ╲╱ ╲__,_│_│ │_│ │_│╲___╲╱   ╲___╱│_│  ╲__, │╲___(_) .__╱ ╲__, │
-                                          │___╱       │_│    │___╱ 
+                                        │___╱       │_│    │___╱ 
 
 ```
-This Python script generates common **Active Directory (AD) style usernames** from a list of first and last names. It is useful for **pentesting, user enumeration, and wordlist generation** in enterprise environments.
+This Python script generates common **Active Directory (AD) style usernames** from a list of first and last names. It is useful for **pentesting, user enumeration, and wordlist generation** in enterprises.
 
 - Input names should be in the format: ***Firstname*** ***Lastname*** 
 - Duplicate names are removed
@@ -27,14 +27,14 @@ This Python script generates common **Active Directory (AD) style usernames** fr
 Clone the repository:
 
 ```bash
-git clone https://github.com/anjulameegalla/NameForge.git
-cd NameForge
+git clone https://github.com/anjulameegalla/nameforge.py.git
+cd nameforge.py
 ```
 
 ## Usage
 
 ```bash
-python3 NameForge.py -u <input_file> [-o <output_file>]
+python3 nameforge.py -u <input_file> [-o <output_file>]
 ```
 - On Windows, use `python` if `python3` is not available.
 
@@ -47,6 +47,4 @@ python3 NameForge.py -u <input_file> [-o <output_file>]
 <br>
 
 See [**examples/**](examples/) for usage examples.
-
-
 
