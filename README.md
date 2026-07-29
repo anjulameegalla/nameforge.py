@@ -6,7 +6,7 @@
  ╱  ╲╱ ╱ _` │ '_ ` _ ╲ ╱ _ ╲╱ _╲╱ _ ╲│ '__╱ _` │╱ _ ╲ │ '_ ╲│ │ │ │
 ╱ ╱╲  ╱ (_│ │ │ │ │ │ │  __╱ ╱ │ (_) │ │ │ (_│ │  __╱_│ │_) │ │_│ │
 ╲_╲ ╲╱ ╲__,_│_│ │_│ │_│╲___╲╱   ╲___╱│_│  ╲__, │╲___(_) .__╱ ╲__, │
-                                        │___╱       │_│    │___╱ 
+                                           │___╱       │_│    │___╱ 
 
 ```
 This Python script generates common **Active Directory (AD) style usernames** from a list of first and last names. It is useful for **pentesting, user enumeration, and wordlist generation** in enterprises.
