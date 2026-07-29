@@ -32,22 +32,22 @@ def main():
  ╱  ╲╱ ╱ _` │ '_ ` _ ╲ ╱ _ ╲╱ _╲╱ _ ╲│ '__╱ _` │╱ _ ╲ │ '_ ╲│ │ │ │
 ╱ ╱╲  ╱ (_│ │ │ │ │ │ │  __╱ ╱ │ (_) │ │ │ (_│ │  __╱_│ │_) │ │_│ │
 ╲_╲ ╲╱ ╲__,_│_│ │_│ │_│╲___╲╱   ╲___╱│_│  ╲__, │╲___(_) .__╱ ╲__, │
-                                          │___╱       │_│    │___╱ 
+                                        │___╱       │_│    │___╱ 
 
-sxript by @anjulameegalla
+script by @anjulameegalla
 
 
 - Input names should be in the format: Firstname Lastname. -
 - Lines with missing names are skipped automatically. -
 
 Usage:
-python3 NameForge.py -u <input_file> [-o <output_file>]
+python3 nameforge.py -u <input_file> [-o <output_file>]
 
 Args:
 `-u` → Path to the input file containing names (required)
 `-o` → Path to the output file (optional, defaults to stdout)
 
-Bugs and suggestions: https://github.com/anjulameegalla/NameForge/issues
+Bugs and suggestions: https://github.com/anjulameegalla/nameforge.py/issues
 
 """)
 
