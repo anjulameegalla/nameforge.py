@@ -14,12 +14,15 @@ def generate_usernames(firstname: str, lastname: str) -> set:
 
         usernames.add(f"{firstname[0]}{sep}{lastname}")
         usernames.add(f"{lastname[0]}{sep}{firstname}")
-
+        
+        usernames.add(f"{firstname}{sep}{lastname[0]}")
+        usernames.add(f"{lastname}{sep}{firstname[0]}")
+        
         usernames.add(f"{firstname[:3]}{sep}{lastname[:3]}")
         usernames.add(f"{lastname[:3]}{sep}{firstname[:3]}")
 
-    usernames.add(f"{firstname[0]}{lastname[0]}")
-    usernames.add(f"{lastname[0]}{firstname[0]}")
+        usernames.add(f"{firstname[0]}{lastname[0]}")
+        usernames.add(f"{lastname[0]}{firstname[0]}")
 
     return usernames
 
