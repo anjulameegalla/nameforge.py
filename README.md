@@ -48,3 +48,8 @@ python3 nameforge.py -u <input_file> [-o <output_file>]
 
 See [**examples/**](examples/) for usage examples.
 
+
+## License
+
+MIT
+
